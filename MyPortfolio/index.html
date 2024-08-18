@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="https://kit.fontawesome.com/e61701796c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="header-container header-container-top">
+            <h1>Joseph</h1>
+            <button class="btn"><span class="fa-solid fa-bars"></span></button>
+        </div>
+        <div class="header-container header-container-bottom">
+            <ul class="nav-link-container">
+                <li class="nav-link"><a href="">Education</a></li>
+                <li class="nav-link"><a href="">Education</a></li>
+                <li class="nav-link"><a href="">Education</a></li>
+                <li class="nav-link"><a href="">Education</a></li>
+                <li class="nav-link"><a href="">Education</a></li>
+                <li class="nav-link"><a href="">Education</a></li>
+                <li class="nav-link"><a href="">Education</a></li>
+            </ul>
+        </div>
+    </header>
+    <section class="section-one">
+        <div class="section-one-content overlay">
+            <h1 class="section-one-h1">HI <span style="color: #d92cf9;">,</span> I AM <br> JOSEPH <br> DZANJA <span style="color: #d92cf9;">.</span></h1>
+            <p class="section-one-p">WEB DESIGNER AND WEB DEVELOPER</p>
+            <button class="resume">Download Resume</button>
+        </div>
+    </section>
+
+    <section class="section-two">
+        <h1 class="section-two-h1">ABOUT ME</h1>
+        <div class="section-two-container">
+            <p class="section-two-p1">I am a Professional UI/UX Designer and Web developer. Consectetur an adipisi elita, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud.</p>
+            <p class="section-two-p2">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspi unde omnis iste natus error sit voluptatem accusantium doloremque lauda ntium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam vo luptatem quia voluptas sit aspernatur aut odit aut fugit,</p>
+            <hr>
+            <div class="section-two-info">
+                <h3>Phone</h3>
+                <p>+265 999-34-21-66</p>
+            </div>
+            <div class="section-two-info">
+                <h3>Email</h3>
+                <p>jhdzanja@gmail.com</p>
+            </div>
+            <div class="section-two-info">
+                <h3>Website</h3>
+                <p>jhdzanja.com</p>
+            </div>
+            <div class="section-two-info section-two-img">
+                <img src="./assets/images/profile_image.jpg" alt="photo">
+            </div>
+        </div>
+    </section>
+
+    <section class="section-three">
+        <h1 class="section-three-h1">Education</h1>
+    </section>
+
+    
+    <script>
+        let btn = document.querySelector('.btn');
+        let header_bottom = document.querySelector(".header-container-bottom");
+        btn.addEventListener('click', ()=>{
+            header_bottom.classList.toggle("header-container-bottom")
+        })
+    </script>
+</body>
+</html>
